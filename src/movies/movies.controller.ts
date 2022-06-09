@@ -37,4 +37,8 @@ export class MoviesController {
         return this.moviesService.update(movieId , updateData);
     }
 
+    @Get(){
+        
+    }
+
 }
